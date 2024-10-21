@@ -71,7 +71,6 @@ class Hangman:
             print(f"You have {self.num_lives} lives left.")
     
     def ask_for_input(self):
-        print(self.word)
         '''
         This method will iteratively ask for an input until the input is a valid guess.
         A valid guess is :
@@ -101,10 +100,10 @@ def play_game(wordlist):
             print("You lost!")
             break
         elif game.num_letters > 0:
-            print(game.num_lives)
             print(game.word_guessed)
             game.ask_for_input()
         else:
+            print(game.word_guessed)
             print("Congratulations. You won the game!")
             break
 

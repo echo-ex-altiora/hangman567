@@ -4,8 +4,6 @@ Hangman is a classic game in which a player thinks of a word and the other playe
 
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
 
-A description of the project: what it does, the aim of the project, and what you learned
-
 ## Installation instructions
 
 ```git clone https://github.com/echo-ex-altiora/hangman567.git```
@@ -17,7 +15,7 @@ This repository doesn't require any installations outside of the python standard
 To play hangman, clone the repository to your computer and open in any software that supports python. 
 Run milestone_5.py from terminal using `python milestone_5.py`
 
-If you wish to make edits to or use a different word list:
+If you wish to play with a different word list:
 - open milestone_5.py in VScode or using nano in terminal
 - find the default word list at the top of the file contained in list : word_list
 - edit this list directly or alternatively make a new list and enter your list as the parameter for play_game function.

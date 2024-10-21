@@ -14,14 +14,14 @@ This repository doesn't require any installations outside of the python standard
 
 To play hangman, clone the repository to your computer and open in any software that supports python. 
 
-If you are not already in the hangman folder, move to it using ```cd hangman```
+If you are not already in the hangman folder, move to it using ```cd hangman```.
 
-Run milestone_5.py from terminal using `python milestone_5.py`
+Run milestone_5.py from terminal using `python milestone_5.py`.
 
 If you wish to play with a different word list:
-- open milestone_5.py in VScode or using nano in terminal
-- find the default word list at the top of the file contained in list : word_list
-- edit this list directly or alternatively make a new list and enter your list as the parameter for play_game function.
+- open milestone_5.py in VScode or using nano in terminal.
+- find the default word list at the top of the file contained in list : ```word_list```.
+- edit this list directly or alternatively make a new list and enter your list as the parameter for ```play_game()``` function.
 
 
 ## File structure of the project
@@ -33,7 +33,7 @@ There are five python files in the main folder named hangman.
 - milestone_4.py
 - milestone_5.py
 
-The python file hangman_Template contains a skeleton code with Todos describing how you can code the game yourself.
+The python file hangman_Template.py contains a skeleton code with To dos describing how you can code the game yourself.
 
 The 4 milestone python files are each major step and commit made when coding the game with milestone_5.py being the final fully coded game.
 
@@ -41,4 +41,4 @@ In the outside folder HANGMAN567, there is this README.md file and an empty .git
 
 
 ## License information
-No liscense information.
+No license information.

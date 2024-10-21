@@ -13,6 +13,9 @@ This repository doesn't require any installations outside of the python standard
 ## Usage instructions
 
 To play hangman, clone the repository to your computer and open in any software that supports python. 
+
+If you are not already in the hangman folder, move to it using ```cd hangman```
+
 Run milestone_5.py from terminal using `python milestone_5.py`
 
 If you wish to play with a different word list:
